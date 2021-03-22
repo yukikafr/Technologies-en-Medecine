@@ -1,0 +1,158 @@
+body
+	{background:#ffffff;
+	}
+
+div
+    {text-align: center;
+    }
+	
+.Console
+	{float: right;
+	 margin: 20px;
+	}
+	
+.txt
+	{height:900px;
+	 display: table;
+	 width: 45%;
+	}
+
+.txt span 
+	{vertical-align:middle;
+	 display: table-cell;
+	}
+	
+.txt2
+	{height: 650px;
+	 display: table;
+	 width: 45%;
+	}
+	
+.txt2 span
+	{vertical-align: middle;
+	 display: table-cell;
+	}
+	
+.txt3
+	{height: 462px;
+	 display: table;
+	 width: 49%;
+	}
+	
+.txt3 span
+	{vertical-align: middle;
+	 display: table-cell;
+	}
+
+#quizz 
+	{font-family: bahnschrift;
+	 font-stretch: condensed;
+	 font-weight: semi-bold;
+	 font-size: 18px;
+	}	
+
+section 
+       {background: #F7F7F7;
+	    margin: 45px 50px 45px;
+       }
+	   
+.pages
+	{background: #F7F7F7;
+	 margin: 0px 50px 45px;
+    }
+ 
+p
+ {text-align: center;
+  font-family: bahnschrift;
+  font-size: 20px;
+  font-weight: semi-bold;
+  font-stretch: condensed;
+ }
+	 
+.titres
+	   {font-size: 30px;
+	    text-decoration: underline;
+		font-weight: bolder;
+		text-align: center;
+		font-stretch: extra-expanded;
+		color: #323232;
+	   }
+	   
+.Davinci
+	{margin-left: 20px;
+	 margin-right: 20px;
+	 text-align: justify
+	}
+ 
+.en_gras
+	{font-size:22px;
+	 font-weight: bolder;
+	 color: #323232;
+	}
+ 
+.Footer
+	{font-size : 15px;
+	 text-align : right;
+	 margin-right: 50px;
+	}
+
+table 
+     {margin: auto;
+	  border-spacing: 160px 0px;
+     }
+	 
+.Sources
+	{border-spacing: 20px 0px;
+	}
+	
+.bas {
+	margin : auto;
+	border-spacing: 40px 0px;
+	}
+	
+td 
+  {text-align: center;
+   font-family: bahnschrift;
+   font-stretch: condensed;
+   font-weight: semi-bold;
+   font-size: 15px;
+  }
+  
+.Article
+	{font-family: bahnschrift;
+	 font-size: 18px;
+	 font-stretch: condensed;
+	 font-weight: semi-bold;
+	}
+
+.basbis {
+	text-align: center;
+	}
+	
+.basbis img:hover{
+ color: #878787;
+ opacity: 0.8;
+}
+ 
+a 
+ {color: #000000;
+  outline: none;
+  text-decoration: none;
+ }
+ 
+a:link
+	  {color : #000000;
+	  }
+
+a:hover
+       {color: #878787;
+       }
+
+a:focus
+		{color: #878787;
+		}
+		
+	
+
+
+

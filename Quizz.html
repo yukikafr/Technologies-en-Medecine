@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf_8">
+	<title>Quizz</title>
+	
+		
+</head>
+<body>
+		<header>
+			<br>
+			<nav>
+				<table>
+					<tr>
+					<td><a href="index.html">Index</a> </td>
+					<td><a href="Page1.html">Robot Da Vinci</a> </td>
+					<td><a href="Page2.html">Une interface capable de déchiffrer les pensées</a> </td>
+					<td><a href="Page3.html">Une bio-imprimante 3D</a> </td>
+					<td><a href="Quizz.html">Quizz</a> </td>
+					</tr>
+				</table>
+			</nav>
+		</header>
+		<div>
+			<img src="Images/quizz.png">
+		</div>
+		<section class=pages>
+			<br>
+			<div id="quizz"></div>
+			<br>
+				<div>
+					<button id="submit">Obtenir les resultats</button>
+				</div>
+			<br>
+			<div id="results"></div>
+			<script> 
+				var body = document.getElementsByTagName('BODY')[0]
+      
+				var link = document.createElement('link');  
+  
+					link.rel = 'stylesheet';  
+      
+				link.type = 'text/css'; 
+      
+				link.href = 'Styles/StyleMP.css';  
+  
+				document.getElementsByTagName('BODY')[0].appendChild(link);
+			</script>
+		</section>
+		<footer>
+		<p class=Footer>© Laura C. - Romain E. - Maïwenn G.</p>
+		</footer>
+	<script type="text/javascript" src="QuizzJs.js"></script>
+</body>
